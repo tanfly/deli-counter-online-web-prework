@@ -5,4 +5,5 @@ def line(array)
     array.each do |name|
       line.push("#{name} is number #{counter} in line.")
       counter += 1 
-      
+    end
+    
