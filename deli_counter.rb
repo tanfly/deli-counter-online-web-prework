@@ -8,4 +8,3 @@ def line(array)
     line.push("#{lineup} is number #{counter} in line.")
   counter += 1 
 end
-end 
