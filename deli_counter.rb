@@ -6,6 +6,7 @@ def line(array)
       line.push("#{name} is number #{counter} in line.")
       counter += 1 
     end
+  end
   else 
     puts "The line is currently empty."
   end
