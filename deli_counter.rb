@@ -3,4 +3,5 @@ katz_deli = []
 def line(array)
   line = []
   array.each do |lineup|
-    line.push("")
+    line.push("#{lineup} is number #{counter} in line.")
+    
