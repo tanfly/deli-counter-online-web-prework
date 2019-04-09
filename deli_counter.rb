@@ -7,4 +7,6 @@ def line(array)
   else 
     array.each.with_index(1) do |name, index|
       lineup.push ("#{index}. #{name}")
+    end
+    puts ""
   
