@@ -10,6 +10,6 @@ def line(array)
     array.each_with_index do |name, index|
       message += "#{index + 1}. #{name}"
     end
-    puts "The line is currently: #{lineup.join("")}"
+    puts "#{message}"
   end
 end
