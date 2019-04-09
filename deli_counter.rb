@@ -8,5 +8,6 @@ def line(array)
     array.each.with_index(1) do |name, index|
       lineup.push ("#{index}. #{name}")
     end
-    puts "The line is currently: #{lineup.join("")"
+    puts "The line is currently: #{lineup.join("")}"
+  end
   
