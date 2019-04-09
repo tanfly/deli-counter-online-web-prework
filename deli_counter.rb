@@ -5,6 +5,4 @@ def line(array)
     array.each do |name|
       line.push("#{name} is number #{counter} in line.")
       counter += 1 
-  elsif counter = 0 
-    puts "The line is currently empty."
   end
