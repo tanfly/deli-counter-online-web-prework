@@ -8,4 +8,4 @@ def line(array)
   break if counter >= 1 
   array.each do |lineup|
     line.push("#{lineup} is number #{counter} in line.")
-    
+  counter += 1 
