@@ -10,4 +10,4 @@ def line(array)
     end
     puts "The line is currently: #{lineup.join("")}"
   end
-  
+end
